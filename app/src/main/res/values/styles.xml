@@ -1,0 +1,79 @@
+<resources>
+    <!-- Стиль Base application theme-->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="ThemeBlack" parent="AppTheme">
+        <item name="android:layout_margin">1dp</item>
+        <item name="toolbarStyle">@style/ToolbarBlack</item>
+        <item name="subtitleTextAppearance">@style/ToolbarBlack.SubTitle</item>
+        <item name="titleTextAppearance">@style/ToolbarBlack.TitleText</item>
+        <item name="colorButtonNormal">@color/colorButtonBlack</item>
+        <item name="android:colorBackground">@color/colorBackGroundBlack</item>
+        <item name="android:textColor">@color/colorTextBlack</item>
+    </style>
+    <style name="ThemeGreen" parent="AppTheme">
+        <item name="android:layout_margin">3dp</item>
+        <item name="toolbarStyle">@style/ToolbarGreen</item>
+        <item name="subtitleTextAppearance">@style/ToolbarGreen.SubTitle</item>
+        <item name="titleTextAppearance">@style/ToolbarGreen.TitleText</item>
+        <item name="colorButtonNormal">@color/colorButtonGreen</item>
+        <item name="android:colorBackground">@color/colorBackGroundGreen</item>
+        <item name="android:textColor">@color/colorTextGreen</item>
+    </style>
+    <style name="ThemeBlue" parent="AppTheme">
+        <item name="android:layout_margin">10dp</item>
+        <item name="toolbarStyle">@style/ToolbarBlue</item>
+        <item name="subtitleTextAppearance">@style/ToolbarBlue.SubTitle</item>
+        <item name="titleTextAppearance">@style/ToolbarBlue.TitleText</item>
+        <item name="colorButtonNormal">@color/colorButtonBlue</item>
+        <item name="android:colorBackground">@color/colorBackGroundBlue</item>
+        <item name="android:textColor">@color/colorTextBlue</item>
+    </style>
+    <!-- Стиль Toolbar родитель-->
+    <style name="Toolbar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">?attr/actionBarSize</item>
+    </style>
+    <!-- Стиль Toolbar наследник черный-->
+    <style name="ToolbarBlack" parent="Toolbar">
+        <item name="theme">@style/ThemeOverlay.AppCompat.Dark.ActionBar</item>
+        <item name="android:background">@color/colorToolbarBackGroundBlack</item>
+    </style>
+    <style name="ToolbarBlack.TitleText" parent="ToolbarBlack">
+        <item name="android:textColor">@color/colorToolbarTitleBlack</item>
+        <item name="android:textSize">13sp</item>
+    </style>
+    <style name="ToolbarBlack.SubTitle" parent="ToolbarBlack">
+        <item name="android:textColor">@color/colorToolbarSubTitleBlack</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+    <!-- Стиль Toolbar наследник зеленый-->
+    <style name="ToolbarGreen" parent="Toolbar">
+        <item name="theme">@style/ThemeOverlay.AppCompat.Dark.ActionBar</item>
+        <item name="android:background">@color/colorToolbarBackGroundGreen</item>
+    </style>
+    <style name="ToolbarGreen.TitleText" parent="ToolbarGreen">
+        <item name="android:textColor">@color/colorToolbarTitleGreen</item>
+        <item name="android:textSize">13sp</item>
+    </style>
+    <style name="ToolbarGreen.SubTitle" parent="ToolbarGreen">
+        <item name="android:textColor">@color/colorToolbarSubTitleGreen</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+    <!-- Стиль Toolbar наследник синий-->
+    <style name="ToolbarBlue" parent="Toolbar">
+        <item name="theme">@style/ThemeOverlay.AppCompat.Dark.ActionBar</item>
+        <item name="android:background">@color/colorToolbarBackGroundBlue</item>
+    </style>
+    <style name="ToolbarBlue.TitleText" parent="ToolbarBlue">
+        <item name="android:textColor">@color/colorToolbarTitleBlue</item>
+        <item name="android:textSize">13sp</item>
+    </style>
+    <style name="ToolbarBlue.SubTitle" parent="ToolbarBlue">
+        <item name="android:textColor">@color/colorToolbarSubTitleBlue</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+</resources>

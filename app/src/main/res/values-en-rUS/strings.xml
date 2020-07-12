@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Switching margins in the app</string>
+    <string name="Title">Switching margins in the app</string>
+    <string name="SubTitle">Yachmentsev D. N.</string>
+    <string name="txtLang">Selected language:</string>
+    <string name="txtColor">Select the indents:</string>
+    <string name="btnLang">Ok</string>
+    <string name="txtViewLang">If a mobile app is entering the international market, it needs to be localized to different languages.</string>
+    <string-array name="language">
+        <item>Russian</item>
+        <item>English</item>
+        <item>German</item>
+    </string-array>
+    <string-array name="color">
+        <item>Small</item>
+        <item>Medium</item>
+        <item>Large</item>
+    </string-array>
+</resources>

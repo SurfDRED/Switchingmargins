@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Umschalten der Einrückung in der Anwendung</string>
+    <string name="Title">Umschalten der Einrückung in der Anwendung</string>
+    <string name="SubTitle">Yachmentsev D. N.</string>
+    <string name="txtLang">Sprache auswählen:</string>
+    <string name="txtColor">Einrückung auswählen:</string>
+    <string name="btnLang">Ok</string>
+    <string name="txtViewLang">Wenn eine Mobile Anwendung auf den internationalen Markt kommt, benötigt Sie eine Lokalisierung für verschiedene Sprachen.</string>
+    <string-array name="language">
+        <item>Russisch</item>
+        <item>Englisch</item>
+        <item>Deutsch</item>
+    </string-array>
+    <string-array name="color">
+        <item>Kleine</item>
+        <item>Durchschnittliche</item>
+        <item>Groß</item>
+    </string-array>
+</resources>

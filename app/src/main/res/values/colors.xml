@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#344955</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#015668</color>
+
+    <color name="colorToolbarBackGroundBlack">#212121</color>
+    <color name="colorToolbarTitleBlack">#DCDBD8</color>
+    <color name="colorToolbarSubTitleBlack">#C3C2B7</color>
+    <color name="colorBackGroundBlack">#616161</color>
+    <color name="colorTextBlack">#DAD9C8</color>
+    <color name="colorButtonBlack">#303030</color>
+
+    <color name="colorToolbarBackGroundGreen">#1b5e20</color>
+    <color name="colorToolbarTitleGreen">#DAD701</color>
+    <color name="colorToolbarSubTitleGreen">#DAD875</color>
+    <color name="colorBackGroundGreen">#58955B</color>
+    <color name="colorTextGreen">#FFFC03</color>
+    <color name="colorButtonGreen">#26752C</color>
+
+    <color name="colorToolbarBackGroundBlue">#061473</color>
+    <color name="colorToolbarTitleBlue">#E8B226</color>
+    <color name="colorToolbarSubTitleBlue">#BDAE84</color>
+    <color name="colorBackGroundBlue">#4552A5</color>
+    <color name="colorTextBlue">#FBB705</color>
+    <color name="colorButtonBlue">#1a237e</color>
+
+</resources>

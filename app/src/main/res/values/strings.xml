@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Переключение отступов в приложении</string>
+    <string name="Title">Переключение отступов в приложении</string>
+    <string name="SubTitle">Ячменцев Д. Н.</string>
+    <string name="txtLang">Выберите язык:</string>
+    <string name="txtColor">Выберите отступы:</string>
+    <string name="btnLang">Ок</string>
+    <string name="txtViewLang">Если мобильное приложение выходит на международный рынок, ему нужна локализация под разные языки.</string>
+    <string-array name="language">
+        <item>Русский</item>
+        <item>Английский</item>
+        <item>Немецкий</item>
+    </string-array>
+    <string-array name="color">
+        <item>Мелкие</item>
+        <item>Средние</item>
+        <item>Большие</item>
+    </string-array>
+</resources>
